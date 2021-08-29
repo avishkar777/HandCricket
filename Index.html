@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+    <title>Hand Cricket</title>
+</head>
+<body>
+    <div id="logodiv">
+    <img src="banner/mainlogo.png" alt="" id="logo">
+    </div>
+    <br>
+    <div class="titles">
+        <img src="banner/you.png" alt="">
+        <img src="banner/vs.png" alt="" id="vspng">
+        <img src="banner/computer.png" alt="">
+    </div>
+    <div class="innings">
+        <div><img src="banner/batting.png" alt="" id="batting"></div>
+        <div><img src="banner/bowling.png" alt="" id="bowling"></div>
+    </div>
+    <div class="container-1">
+        <div class="realplayer">
+            <div class="score"><img src="Fingers/one.png" alt=""  onclick="runScored(this)" id="one"></div>
+            <div class="score"><img src="Fingers/two.png" alt=""  onclick="runScored(this)" id="two"></div>
+            <div class="score"><img src="Fingers/three.png" alt="" onclick="runScored(this)" id="three"></div>
+            <div class="score"><img src="Fingers/four.png" alt="" onclick="runScored(this)" id="four"></div>
+            <div class="score"><img src="Fingers/five.png" alt="" onclick="runScored(this)" id="five"></div>
+            <div class="score"><img src="Fingers/six.png" alt="" onclick="runScored(this)" id="six"></div>
+        </div>
+        <div class="result">
+            <div id="youScore"><img src="banner/bat.png" alt="" width="70px" height="70px" id="res1"></div>
+            <div id="outwin"><img src="banner/wicket.png" alt="" id="banner" height="180px" width="300px"></div>
+            <div id="botScore"><img src="banner/ball.png" alt="" width="70px" height="70px" id="res2"></div>
+        </div>
+        <div class="botplayer">
+            <div class="score"><img src="Fingers/one.png" alt=""></div>
+            <div class="score"><img src="Fingers/two.png" alt=""></div>
+            <div class="score" i><img src="Fingers/three.png" alt=""></div>
+            <div class="score" ><img src="Fingers/four.png" alt=""></div>
+            <div class="score" ><img src="Fingers/five.png" alt=""></div>
+            <div class="score"><img src="Fingers/six.png" alt=""></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div id="you">Score:<span id="total">0</span></div>
+        <div id="playagain"><button onclick="refresh()" id="buttn">Play Again</button></div>
+        <div id="bot">Score:<span id="total2">0</span></div>
+
+    </div>
+</body>
+</html>
